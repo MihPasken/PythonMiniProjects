@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1109</width>
+    <height>855</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="text_1">
+    <property name="geometry">
+     <rect>
+      <x>38</x>
+      <y>130</y>
+      <width>431</width>
+      <height>401</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_2">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>130</y>
+      <width>431</width>
+      <height>401</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="about_text1">
+    <property name="geometry">
+     <rect>
+      <x>38</x>
+      <y>100</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Текст 1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="about_text2">
+    <property name="geometry">
+     <rect>
+      <x>488</x>
+      <y>100</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Текст 2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="checkproc">
+    <property name="geometry">
+     <rect>
+      <x>38</x>
+      <y>50</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Порог срабатывания (%)</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="spincount">
+    <property name="geometry">
+     <rect>
+      <x>198</x>
+      <y>50</y>
+      <width>721</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="res_button">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>550</y>
+      <width>881</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сравнить</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="resultat">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>580</y>
+      <width>881</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
